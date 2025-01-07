@@ -1,14 +1,14 @@
 <?php
-define("USERNAME", "noreply@lcss.frontlinebusiness.com.ph");
-define("PASSWORD", "~s1p32f19Pt@");
-define("FROM", "JOLLIBEE");
+define("USERNAME", "marianoelias811@gmail.com");
+define("PASSWORD", "123123qQ!");
+define("FROM", "PORTFOLIO");
 define("VERIFY_ACCOUNT", "Account Verification");
 define("RESET_PASSWORD", "Reset Password");
 define("FEEDBACK_ASSIGNER", "Feedback From Assigner");
 define("TASK_CONTROL_DETAILS", "Task Control Details");
 define("VERIFY_EMAIL", "Email Verification");
-define("DEVELOPER", "mark.merin@frontlinebusiness.com.ph");
-define("ADMIN", "mark.merin@frontlinebusiness.com.ph");
+define("DEVELOPER", "marianoelias811@gmail.com");
+define("ADMIN", "marianoelias811@gmail.com");
 
 // // local
 define("ROOT_DOMAIN", "http://127.0.0.1:5173");

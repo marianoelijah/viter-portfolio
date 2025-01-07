@@ -18,7 +18,6 @@ const Main = () => {
       <Hobbies/>
       <Experience/>
       <Skills/>
-      {/* <RecentProjects/> */}
       <Footer />
     </>
   );

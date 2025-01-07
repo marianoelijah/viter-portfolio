@@ -5,9 +5,8 @@ const Experience = () => {
   return (
     <section className="bg-green-950 py-16">
       <div className="container">
-        <div className="aboutme-wrapper flex justify-between">
-          
-          <div className="aboutme-text text-white max-w-[800px] flex flex-col justify-center text-justify">
+        <div className="experience-wrapper flex justify-between">
+          <div className="experience-text text-white max-w-[800px] flex flex-col justify-center text-justify">
             <h1 className="mb-5">Experience</h1>
             <p className="leading-relaxed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -18,13 +17,13 @@ const Experience = () => {
               reprehenderit hic aspernatur in sequi corporis dicta dolorum
               veniam non laborum esse quod. Quos a officia aperiam magni
               facilis? Working in the slums tondo, manila was very  poor and very sad,
-               but i always taught myself to look for the beauty in it, to look in 
-               the faces of every children and to be greatful and i will bring this
+              but i always taught myself to look for the beauty in it, to look in 
+              the faces of every children and to be greatful and i will bring this
               aspect as a miss universe to see the situation in the silver lining and 
               the aspects where i can give something, where i could provide something, 
               and also if we could to teach people to be greatful we have an amazing  
               world we're negativity will not grow and faster. and sure we will win
-               this smile. thankyou.
+              this smile. thankyou.
             </p>
           </div>
         </div>

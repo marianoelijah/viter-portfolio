@@ -1,12 +1,13 @@
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
-import React from 'react'
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import React from "react";
 
 const Footer = () => {
   return (
     <>
       <div className="contacts flex flex-col justify-center text-center items-center gap-5 py-10 text-black">
-        <h2 className='font-bold'>Feel free to talk to us 
-        about your Projects</h2>
+        <h2 className="font-bold">
+          Feel free to talk to us about your Projects
+        </h2>
         <ul className="flex gap-5 cursor-pointer">
           <li>
             <Youtube />
@@ -27,11 +28,11 @@ const Footer = () => {
       </div>
       <footer className="text-center border-t border-line border-opacity-45 p-6  bg-light">
         <p className="mb-0 text-xs text-black">
-          My Portfoliio 2025 - Developed by Zhanne Elijah Mariano
+          Viter Portfoliio 2025 - Developed by Zhanne Elijah Mariano
         </p>
       </footer>
     </>
   );
-}
+};
 
-export default Footer
+export default Footer;

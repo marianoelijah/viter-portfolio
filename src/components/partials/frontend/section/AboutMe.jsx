@@ -32,6 +32,9 @@ const AboutMe = () => {
           <div className="aboutme-text text-white max-w-[800px] flex flex-col justify-center text-justify">
             <h1 className="mb-5">About Me</h1>
             <p className="leading-relaxed">
+              My personality has depends on what people treat me. but i'm a good 
+              person and a lot of people see me as a kind and innocent one but 
+              the truth is they never know who i really am. 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
               adipisci ipsa perspiciatis delectus fugit quae, maxime
               repellendus. Reiciendis alias quis magnam recusandae at distinctio

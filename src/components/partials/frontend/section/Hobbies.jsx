@@ -5,8 +5,8 @@ const Hobbies = () => {
   return (
     <section className="bg-green-800 py-16">
       <div className="container">
-        <div className="aboutme-wrapper flex justify-between">
-          <div className="aboutme-image relative group">
+        <div className="hobbies-wrapper flex justify-between">
+          <div className="hobbies-image relative group">
             <p className="absolute left-3  top-3 bg-primary px-4 py-1 rounded-full text-[13px] font-bold z-20 group-hover:opacity-0 transition-opacity">
               READING
             </p>
@@ -22,10 +22,11 @@ const Hobbies = () => {
                 <li>Fictional stories help me to understand different perspectives and emotions.</li>
                 <li>It helps me to reduce Stress and Anxiety</li>
                 <li>It really helps me to nurtures the mind, body, and soul. </li>
+                <li>Its helps me to know more about the fictional stories and making me to think delusional </li>
               </ul>
             </div>
           </div>
-          <div className="aboutme-image relative group">
+          <div className="hobbies-image relative group">
             <p className="absolute left-3  top-3 bg-primary px-4 py-1 rounded-full text-[13px] font-bold z-20 group-hover:opacity-0 transition-opacity">
               FILMING
             </p>
@@ -44,7 +45,7 @@ const Hobbies = () => {
               </ul>
             </div>
           </div>
-          <div className="aboutme-image relative group">
+          <div className="hobbies-image relative group">
             <p className="absolute left-3  top-3 bg-primary px-4 py-1 rounded-full text-[13px] font-bold z-20 group-hover:opacity-0 transition-opacity">
               EXPLORING
             </p>
