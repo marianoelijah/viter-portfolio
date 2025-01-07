@@ -1,5 +1,5 @@
-import { imgPath } from '@/components/helpers/functions-general';
-import React from 'react'
+import { imgPath } from "@/components/helpers/functions-general";
+import React from "react";
 
 const Banner = () => {
   return (
@@ -7,12 +7,15 @@ const Banner = () => {
       <div className="container">
         <div className="introduction-wrapper flex justify-between">
           <div className="introduction-text text-light   justify-center flex flex-col max-w-[800px]">
-            <h1 className="mb-5">Hello! I'm Elijah</h1>
+            <h1 className="mb-5">
+              Whats Up Madlang People! <br />
+              I'm Yours Trully "Elijah"
+            </h1>
             <p className="text-xl leading-relaxed text-justify ">
               Hello, I'm Zhanne Elijah B. Mariano. I'm currently a 4th year
               college student at Laguna State Polytechnic University. I was born
               in Makati Medical Center but now currently living in the Tiaong
-              Quezon Province. you can call me "Elii" for short. 
+              Quezon Province. you can call me "Elii" for short.
             </p>
           </div>
           <div className="mb-4 relative group">
@@ -34,6 +37,6 @@ const Banner = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Banner
+export default Banner;

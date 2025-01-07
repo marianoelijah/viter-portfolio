@@ -30,12 +30,12 @@ RewriteRule ^developer/token$ controllers/developer/settings/user/developer/toke
 RewriteRule ^developer/page/([0-9]+)$ controllers/developer/settings/user/developer/page.php?start=$1 [L]
 RewriteRule ^developer/search$ controllers/developer/settings/user/developer/search.php [L]
 
-RewriteRule ^food$ controllers/food/food.php [L]
-RewriteRule ^food/([0-9]+)$ controllers/food/food.php?foodid=$1 [L]
-RewriteRule ^food/active/([0-9]+)$ controllers/food/active.php?foodid=$1 [L]
-RewriteRule ^food/page/([0-9]+)$ controllers/food/page.php?start=$1 [L]
-RewriteRule ^food/search$ controllers/food/search.php [L]
-RewriteRule ^food/read-food-by-category$ controllers/food/read-food-by-category.php [L]
+RewriteRule ^banner$ controllers/banner/banner.php [L]
+RewriteRule ^banner/([0-9]+)$ controllers/banner/banner.php?bannerid=$1 [L]
+RewriteRule ^banner/active/([0-9]+)$ controllers/banner/active.php?bannerid=$1 [L]
+RewriteRule ^banner/page/([0-9]+)$ controllers/banner/page.php?start=$1 [L]
+RewriteRule ^banner/search$ controllers/banner/search.php [L]
+RewriteRule ^banner/read-banner-by-category$ controllers/banner/read-banner-by-category.php [L]
 
 RewriteRule ^advertisement$ controllers/advertisement/advertisement.php [L]
 RewriteRule ^advertisement/([0-9]+)$ controllers/advertisement/advertisement.php?advertisementid=$1 [L]
