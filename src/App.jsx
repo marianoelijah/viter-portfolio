@@ -1,18 +1,17 @@
-import React from "react";
-import Banner from "./components/pages/frontend/homepage/Banner";
-import Contacts from "./components/pages/frontend/homepage/Contacts";
-import Home from "./components/pages/frontend/homepage/Home";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Main from './components/partials/frontend/Main';
+
 
 
 const App = () => {
   return (
-    <BrowserRouter>
-          <Router>
-            <Route index element={<Home />} />
-          </Router>
-    </BrowserRouter>
-  );
-};
+    <Router>
+      <Routes>
+        <Route index element={<Main/>}/>
+      </Routes>
+    </Router>
+  )
+}
 
-export default App;
+export default App
